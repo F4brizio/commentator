@@ -1,4 +1,4 @@
-# Commentator 🤭
+# Commentator 🤭 (Supports Laravel 8)
 
 If you ever need comments for your projects, here is something to get you started.
 
