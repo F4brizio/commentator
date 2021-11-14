@@ -12,7 +12,7 @@
     "keywords": ["Laravel", "Commentator"],
     "require": {
         "php" : "^7.2||^8.0",
-        "illuminate/support": "self.version",
+        "illuminate/support": "~6.0|~7.0|~8.0",
         "stevebauman/purify": "^3.0"
     },
     "require-dev": {
