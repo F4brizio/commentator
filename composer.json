@@ -1,0 +1,44 @@
+{
+    "name": "fabrizio/commentator",
+    "description": "A Laravel package that lets you add a comment section to your pages.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Fabrizio Piminchumo",
+            "email": "f4brizio.21@gmail.com"
+        }
+    ],
+    "homepage": "https://github.com/F4brizio/commentator",
+    "keywords": ["Laravel", "Commentator"],
+    "require": {
+        "php" : "^7.2||^8.0",
+        "illuminate/support": "self.version",
+        "stevebauman/purify": "^3.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8.0",
+        "mockery/mockery": "^1.1",
+        "orchestra/testbench": "~3|~4|~5",
+        "sempro/phpunit-pretty-print": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Plmrlnsnts\\Commentator\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Plmrlnsnts\\Commentator\\Tests\\": "tests"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Plmrlnsnts\\Commentator\\CommentatorServiceProvider"
+            ],
+            "aliases": {
+                "Commentator": "Plmrlnsnts\\Commentator\\Facades\\Commentator"
+            }
+        }
+    }
+}
